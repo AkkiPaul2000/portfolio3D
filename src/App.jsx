@@ -12,10 +12,10 @@ function App() {
   const Components=styled.div`
   height:100vh;
   scroll-snap-type:y mandatory;
-  scroll-behaviour: smooth;
+  scroll-behavior: smooth;
   overflow-y:auto;
   color:white;
-  background-color:white;
+  background:url("./img/bg.jpeg");
   scrollbar-width:none;
   &::-webkit-scrollbar{
   display:none;
