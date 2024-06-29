@@ -3,6 +3,7 @@ import './App.css'
 import Hero from './components/Hero'
 import Who from './components/Who'
 import Works from './components/Works'
+import Text from './components/Test'
 import Contacts from './components/Contacts'
 import styled from "styled-components"
 
@@ -27,6 +28,7 @@ function App() {
       <Who/>
       <Works/>
       <Contacts/>
+      <Text/>
     </Components>
   )
 }
